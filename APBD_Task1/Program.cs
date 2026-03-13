@@ -26,6 +26,15 @@ namespace APBD_Task1
             return max;
         }
 
+
+        static int CalculateMin(int[] values)
+        {
+            
+            return 0;
+        }
+
+
+
         static void Main(string[] args)
         {
             int result = CalculateAverage(10, 20, 30);
