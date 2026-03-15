@@ -48,9 +48,9 @@ namespace APBD_Task1
             int result = CalculateAverage(10, 20, 30);
             Console.WriteLine(result);
 
-            int[] numbers = { 1, 2, 5, 4, 3 };
-            int maxNumber = CalculateMax(numbers);
-            Console.WriteLine(maxNumber);
+            int[] values = { 1, 2, 5, 4, 3 };
+            int maxNumber = CalculateMax(values);
+            Console.WriteLine("Max number = " + maxNumber);
 
             int minNumber = CalculateMin(numbers);
             Console.WriteLine(minNumber);
