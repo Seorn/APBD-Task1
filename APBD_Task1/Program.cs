@@ -50,7 +50,7 @@ namespace APBD_Task1
 
             int[] numbers = { 1, 2, 5, 4, 3 };
             int maxNumber = CalculateMax(numbers);
-            Console.WriteLine(maxNumber);
+            Console.WriteLine("Maximum value: " + maxNumber);
 
             int minNumber = CalculateMin(numbers);
             Console.WriteLine(minNumber);
